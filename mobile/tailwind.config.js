@@ -4,6 +4,11 @@ module.exports = {
   content: ["./App.tsx", "/app/**/*.tsx"],
   theme: {
     extend: {
+      fontFamily: {
+        title: "Roboto_700bold",
+        body: "Roboto_400Regular",
+        alt: "BaiJamjuree_700Bold",
+      },
       colors: {
         gray: {
           50: "#eaeaea",
