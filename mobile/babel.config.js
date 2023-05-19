@@ -2,6 +2,6 @@ export default function (api) {
   api.cache(true);
   return {
     presets: ["babel-preset-expo"],
-    plugins: ["nativewind/babel"],
+    plugins: ["nativewind/babel", require.resolve("expo-router/babel")],
   };
 }
