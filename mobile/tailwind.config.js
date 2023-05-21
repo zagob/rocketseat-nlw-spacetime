@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 // eslint-disable-next-line no-undef
 module.exports = {
-  content: ["./App.tsx", "/app/**/*.tsx"],
+  content: ["./App.tsx", "./app/**/*.tsx"],
   theme: {
     extend: {
       fontFamily: {
-        title: "Roboto_700bold",
+        title: ["Roboto_700bold"],
         body: "Roboto_400Regular",
         alt: "BaiJamjuree_700Bold",
       },
@@ -50,9 +50,3 @@ module.exports = {
     },
   },
 };
-
-// export const content = ["./App.tsx", "/app/**/*.tsx"];
-// export const theme = {
-//   extend: {},
-// };
-// export const plugins = [];
